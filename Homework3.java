@@ -119,21 +119,17 @@ public class Homework3 {
 			// }
 
 			if (line.isEmpty()) {
-
 				if (isInserted) {
 					writer.println("</p>");
 					isInserted = false;
 					isPara = 0;
-
 					continue;
 				}
 
 				isPara++;
-
 				continue;
 			}
 			else {
-
 				if(isPara < 2) {
 					isPara = 0;
 				}
@@ -155,11 +151,8 @@ public class Homework3 {
 				// System.out.println("s: " + s);	
 
 				str = translateListItem(tmp);
-
 				line = line.replace(s, str);
-
 				isFirst = false;
-
 				writer.println(line);
 
 				continue;
@@ -188,17 +181,17 @@ public class Homework3 {
 				String txt = line.substring(line.indexOf("[") + 1, line.indexOf("]"));
 				String s = line.substring(line.indexOf("["), line.lastIndexOf(")") + 1);
 
-				System.out.println("s: " + s);
-				System.out.println("url: " + url);
-				System.out.println("txt: " + txt);
+				// System.out.println("s: " + s);
+				// System.out.println("url: " + url);
+				// System.out.println("txt: " + txt);
 
 				str = translateHyperlink(txt, url);
 
-				System.out.println("str: " + str);
+				// System.out.println("str: " + str);
 
 			    line = line.replace(s, str);
 
-				System.out.println("line: " + line);
+				// System.out.println("line: " + line);
 
 			}
 
