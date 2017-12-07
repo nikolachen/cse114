@@ -100,26 +100,51 @@ public class Homework3 {
 
 			// scan through the string
 
+			// if (line.isEmpty()) {
+
+			// 	if (isInserted) {
+			// 		writer.println("</p>");
+			// 		isInserted = false;
+			// 		isPara = 0;
+			// 	}
+
+			// 	isPara++;
+
+			// 	if (isPara >= 2) {
+			// 		writer.println("<p>");
+			// 		isInserted = true;
+			// 	}
+
+			// 	continue;
+			// }
+
 			if (line.isEmpty()) {
 
 				if (isInserted) {
 					writer.println("</p>");
 					isInserted = false;
 					isPara = 0;
+
+					continue;
 				}
 
 				isPara++;
+
+				continue;
+			}
+			else {
+
+				if(isPara < 2) {
+					isPara = 0;
+				}
 
 				if (isPara >= 2) {
 					writer.println("<p>");
 					isInserted = true;
 				}
-
-				continue;
 			}
 
-
-			if (line.contains("+")) {
+			if (line.startsWith("+")) {
 
 				if(isFirst)
 					writer.println("<ul>");
@@ -159,7 +184,7 @@ public class Homework3 {
 
 			if (!line.contains("!") && line.contains("[") && line.contains("]") && line.contains("(") && line.contains(")") ) {
 				
-				String url = line.substring(line.lastIndexOf("]") + 1, line.lastIndexOf(")"));
+				String url = line.substring(line.lastIndexOf("]") + 1, line.lastIwndexOf(")"));
 				String txt = line.substring(line.indexOf("[") + 1, line.indexOf("]"));
 				String s = line.substring(line.indexOf("["), line.lastIndexOf(")") + 1);
 
