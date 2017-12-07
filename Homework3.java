@@ -241,6 +241,12 @@ public class Homework3 {
 			isFirst = true;
 		}
 
+		if (isInserted) {
+			writer.println("</p>");
+			isInserted = false;
+			isPara = 0;
+		}
+
 		writer.println("</body>");
 		writer.println("</html>");
 
