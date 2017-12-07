@@ -1,0 +1,73 @@
+This is a sample `Markdown` file. <em>Markdown</em> is a
+This is a sample `Markdown` file. <em>Markdown</em> is a
+This is a sample `Markdown` file. <em>Markdown</em> is a
+This is a sample <code>Markdown</code> file. <em>Markdown</em> is a
+simple notation for translating <strong>plaintext</strong> documents
+simple notation for translating <strong>plaintext</strong> documents
+simple notation for translating <strong>plaintext</strong> documents
+simple notation for translating <strong>plaintext</strong> documents
+into <strong>HTML</strong>. Instead of using exotic [HTML](http://www.w3.org)
+into <strong>HTML</strong>. Instead of using exotic <a href="http://www.w3.org">HTML</a>
+into <strong>HTML</strong>. Instead of using exotic <a href="http://www.w3.org">HTML</a>
+into <strong>HTML</strong>. Instead of using exotic <a href="http://www.w3.org">HTML</a>
+tags like `<code>`, Markdown lets you use simple text symbols to
+tags like `<code>`, Markdown lets you use simple text symbols to
+tags like `<code>`, Markdown lets you use simple text symbols to
+tags like <code><code></code>, Markdown lets you use simple text symbols to
+indicate how to display different kinds of text. For example,
+indicate how to display different kinds of text. For example,
+indicate how to display different kinds of text. For example,
+indicate how to display different kinds of text. For example,
+
+
+
+
+here is some code to display a "smiley-face" image:
+here is some code to display a "smiley-face" image:
+here is some code to display a "smiley-face" image:
+here is some code to display a "smiley-face" image:
+
+
+
+
+![Happy face](/mysite/images/smiley.jpg "My smiley face image")
+![Happy face](/mysite/images/smiley.jpg "My smiley face image")
+in str:<img src="/mysite/images/smiley.jpg" alt="Happy face" title="My smiley face image">
+<img src="/mysite/images/smiley.jpg" alt="Happy face" title="My smiley face image">
+<img src="/mysite/images/smiley.jpg" alt="Happy face" title="My smiley face image">
+
+
+
+
+If you run this text through your <em>MarkdownTranslator</em> program,
+If you run this text through your <em>MarkdownTranslator</em> program,
+If you run this text through your <em>MarkdownTranslator</em> program,
+If you run this text through your <em>MarkdownTranslator</em> program,
+you should receive a neatly-formatted HTML version of this <em>file</em>.
+you should receive a neatly-formatted HTML version of this <em>file</em>.
+you should receive a neatly-formatted HTML version of this <em>file</em>.
+you should receive a neatly-formatted HTML version of this <em>file</em>.
+
+
+
+
++ This is a simple unordered list
++ This is a simple unordered list
++ This is a simple unordered list
++ This is a simple unordered list
++ It contains a total of three list items
++ It contains a total of three list items
++ It contains a total of three list items
++ It contains a total of three list items
++ and should be surrounded by the correct UL tags in the HTML version
++ and should be surrounded by the correct UL tags in the HTML version
++ and should be surrounded by the correct UL tags in the HTML version
++ and should be surrounded by the correct UL tags in the HTML version
+
+
+
+
+This is the <em>last</em> line in the test file.
+This is the <em>last</em> line in the test file.
+This is the <em>last</em> line in the test file.
+This is the <em>last</em> line in the test file.
